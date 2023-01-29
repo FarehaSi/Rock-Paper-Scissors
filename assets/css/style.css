@@ -1,12 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Gudea&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 h1 {
     font-family: Bangers, sans-serif;
-    font-size: ;
+    font-size: 100px;
     text-align: center;
+    padding: 20px;
 }
+
+/* .multicolor-text {
+    text-align: center;
+    font-size: 100px;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+} */
 
 body {
     font-family: Gudea, sans-serif;
-    font-size: ;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p {
+    padding-bottom: 35px;
+}
+
+button {
+    background-color: white;
+    border-width: 0;
+}
+
+.score-area {
+    padding: 35px;
+}
+
+span {
+    padding: 10px;
 }
