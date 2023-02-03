@@ -39,6 +39,11 @@ p {
     padding: 30px;
 }
 
+.weapon-img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .score-area {
     padding: 35px;
 }
