@@ -28,27 +28,32 @@ let computerScore = 0;
 function chooseWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         // Draw
-        resultWrapperEl.innerHTML = "You both chose " + playerChoice + ". It's a DRAW! 🫤";
-        return false;
+        updateResultMsg("You both chose " + playerChoice + ". It's a DRAW! 🫤");
+        return;
     }
 
-    const playerChoiceConfig = WEAPONS.find
-    (eachWeapon => eachWeapon.id === playerChoice);
+    const playerChoiceConfig = WEAPONS.find(eachWeapon => eachWeapon.id === playerChoice);
 
     if(playerChoiceConfig.winsOver === computerChoice) {
         // Player wins
-        resultWrapperEl.innerHTML =
-      "You chose " + playerChoice + ". The computer chose " + computerChoice + ". You WIN!!! 😀🥳😎";
-      playerScore++;
+        updateResultMsg("You chose " + playerChoice + ", the computer chose " + computerChoice + ". You WIN!!! 😀🥳😎");
+        playerScore++;
     } else {
         // Computer wins
-        resultWrapperEl.innerHTML =
-      "You chose " + playerChoice + ". The computer chose " + computerChoice + ". You LOSE! 😒 ";
-      computerScore++;
+        updateResultMsg("You chose " + playerChoice + ", the computer chose " + computerChoice + ". You LOSE! 😒 ");
+        computerScore++;
     }
-  
-    scoreWrapperEl.innerHTML =
-    "<span>" + playerScore + "</span>:<span>" + computerScore + "</span>";
+
+    updateScores();
+}
+
+function updateScores() {
+  scoreWrapperEl.innerHTML =
+  "<span>" + playerScore + "</span>:<span>" + computerScore + "</span>";
+}
+
+function updateResultMsg(msg) {
+  resultWrapperEl.innerHTML = msg;
 }
 
 function createWeaponImageEl(weapon) {
