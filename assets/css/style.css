@@ -15,13 +15,28 @@ h1 {
 
 body {
     font-family: Gudea, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     letter-spacing: 2px;
+    background: url(../images/background-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 p {
-    padding-bottom: 35px;
+    padding: 5px;
+}
+
+.rules {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.weapons-wrapper {
+    padding: 30px;
 }
 
 .score-area {
@@ -30,4 +45,11 @@ p {
 
 span {
     padding: 10px;
+}
+
+.score-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
