@@ -24,6 +24,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -67,22 +71,26 @@ span {
     }
 
     .weapon-img {
-        height: 100px;
+        height: 120px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
+
+    h1 {
+        font-size: 40px;
+    }
 
     body {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .weapons-wrapper {
-        padding: 15px;
+        padding: 10px;
     }
 
     .weapon-img {
-        height: 75px;
+        height: 100px;
     }
 }
 
