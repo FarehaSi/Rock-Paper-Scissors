@@ -19,12 +19,15 @@ const WEAPONS = [
     },
   ];
 
-  function chooseWinner(playerChoice, computerChoice) {
+const resultWrapperEl = document.querySelector(".game-result");
+
+function chooseWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         // Draw
+        resultWrapperEl.innerHTML = "It's a draw! You both chose " + playerChoice;
+        return false;
     }
 
-    // playerChoice - rock; computerChoice - paper
     const playerChoiceConfig = WEAPONS.find
     (eachWeapon => eachWeapon.id === playerChoice);
 
