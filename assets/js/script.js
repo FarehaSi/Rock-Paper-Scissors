@@ -21,11 +21,14 @@ const WEAPONS = [
 
 const resultWrapperEl = document.querySelector(".game-result");
 const weaponsEl = document.querySelector(".weapons-wrapper");
+const scoreWrapperEl = document.querySelector(".score-wrapper");
+let playerScore = 0;
+let computerScore = 0;
 
 function chooseWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         // Draw
-        resultWrapperEl.innerHTML = "It's a draw! You both chose " + playerChoice;
+        resultWrapperEl.innerHTML = "You both chose " + playerChoice + ". It's a DRAW! 🫤";
         return false;
     }
 
@@ -34,9 +37,18 @@ function chooseWinner(playerChoice, computerChoice) {
 
     if(playerChoiceConfig.winsOver === computerChoice) {
         // Player wins
+        resultWrapperEl.innerHTML =
+      "You chose " + playerChoice + ". The computer chose " + computerChoice + ". You WIN!!! 😀🥳😎";
+      playerScore++;
     } else {
         // Computer wins
+        resultWrapperEl.innerHTML =
+      "You chose " + playerChoice + ". The computer chose " + computerChoice + ". You LOSE! 😒 ";
+      computerScore++;
     }
+  
+    scoreWrapperEl.innerHTML =
+    "<span>" + playerScore + "</span>:<span>" + computerScore + "</span>";
 }
 
 function createWeaponImageEl(weapon) {
