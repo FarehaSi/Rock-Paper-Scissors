@@ -8,25 +8,19 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1 class="multicolor-text">Rock Paper Scissors
-        <!-- <font color="#e20211">Rock</font>
-        <font color="#f8b504">Paper</font>
-        <font color="#049941">Scissors</font> -->
-    </h1>
-    <div>
-        <p>
-            Pick your weapon!
-        </p>
-    </div>
+    <header>
+        <h1 >Rock Paper Scissors</h1>
+    </header>
     <div class="game-area">
-        <button class="rock"><img src="assets/images/rock.png"></button>
-        <button class="paper"><img src="assets/images/paper.png"></button>
-        <button class="scissors"><img src="assets/images/scissors.png"></button>
+        <h2>Pick your weapon!</h2>
+        <p>(Rules: Scissors cut papers | Paper covers rock | Rock blunts scissors)</p>
+        <div class="weapons-wrapper"></div>
+        <p class="game-result"></p>
     </div>
-    <div class="score-area">
-        <span>You</span>
-        <span class="you-score"><strong>0</strong></span>:<span class="computer-score"><strong>0</strong></span>
-        <span>Computer</span>
+    <div>
+        <p>You</p>
+        <p class="score-wrapper"><span>0</span>:<span>0</span></p>
+        <p>Computer</p>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
