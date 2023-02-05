@@ -3,19 +3,31 @@ const WEAPONS = [
       id: "rock",
       name: "Rock",
       imgSrc: "./assets/images/rock.png",
-      winsOver: "scissors",
+      winsOver: ["scissors", "lizard"],
     },
     {
       id: "paper",
       name: "Paper",
       imgSrc: "./assets/images/paper.png",
-      winsOver: "rock",
+      winsOver: ["rock", "spock"],
     },
     {
       id: "scissors",
       name: "Scissors",
       imgSrc: "./assets/images/scissors.png",
-      winsOver: "paper",
+      winsOver: ["paper", "lizard"],
+    },
+    {
+      id: "lizard",
+      name: "Lizard",
+      imgSrc: "./assets/images/lizard.png",
+      winsOver: ["spock", "paper"],
+    },
+    {
+      id: "spock",
+      name: "Spock",
+      imgSrc: "./assets/images/spock.png",
+      winsOver: ["scissors","rock"],
     },
   ];
 
@@ -34,7 +46,7 @@ function chooseWinner(playerChoice, computerChoice) {
 
     const playerChoiceConfig = WEAPONS.find(eachWeapon => eachWeapon.id === playerChoice);
 
-    if(playerChoiceConfig.winsOver === computerChoice) {
+    if(playerChoiceConfig.winsOver.includes(computerChoice)) {
         // Player wins
         updateResultMsg("You chose " + playerChoice + ", the computer chose " + computerChoice + ". You WIN!!! 😀🥳😎");
         playerScore++;
