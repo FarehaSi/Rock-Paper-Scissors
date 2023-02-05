@@ -90,4 +90,4 @@ function generatePlayerWeapons() {
 generatePlayerWeapons();
 
 let gameRules = document.getElementById('rules');
-gameRules.innerHTML = "(Rules: Scissors cut paper. Paper covers rock. Rock crushes scissors. Lizard poisons Spock. Spock smashes Scissors. Scissors decapitates Lizard. Lizard eats Paper. Paper disproves Spock. Spock vaporizes Rock)";
+gameRules.innerHTML = "(Rules: Scissors cut paper. Paper covers rock. Rock crushes scissors. Lizard poisons Spock. Spock smashes Scissors. Scissors decapitates Lizard. Lizard eats Paper. Paper disproves Spock. Spock vaporizes Rock.)";
