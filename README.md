@@ -3,9 +3,6 @@
 <br>
 <br>
 In this game, users can play against the computer that randomly chooses one of the five given weapons. This results in either a win, loss or a draw. The game can be used to settle an argument, kill time or simply have fun with! It is targeted at individuals of all age groups and regions!
-<br>
-<br>
-Insert Image
 ## Features
 It is an interactive single page website consisting of three major sections. One is the game area where users select their weapon. The second is the score area that displays the reslt of the game. The footer provides reference to rules of the game. 
 ### Existing Features
@@ -33,25 +30,25 @@ The game can be expanded to include multiple players.
 ### Unsolved Bugs
 There are no unfixed bugs
 ## Deployment
-### GitHub
+#### GitHub
 The site was deployed to GitHub pages. The steps followed were:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Main Branch
 - Once the Main Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here - https://farehasi.github.io/Rock-Paper-Scissors-Lizard-Spock/
-### GitPod
+#### GitPod
 The site can be also deployed on GitPod. The steps to deploy are as follows:
 - In the gitpod workspace go to MyProject1 click on the index.html
 - Once opened, in the terminal type: python3 -m http.server
 - Local link will appear in the terminal, click on it and the webpage will open in a new tab.
-### Forking
+#### Forking
 To Fork this repositary:
 - Navigate to GitHub project repositary [Rock Paper Scissors Lizard Spock](https://github.com/FarehaSi/Rock-Paper-Scissors-Lizard-Spock)
 - In the right hand corner see the "Fork" section and click on it.
 - Select an owner for the forked repository.
 - Click Create fork button.
-
- 
- 
-
+## Credits
+- All illustrations were taken from <a href="https://www.pngwing.com/" target="_blank">PNGWing</a>
+## Acknowledgements
+I would like to also thank my mentor Akshat Garg for encouraging me to write a 
 
