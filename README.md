@@ -10,17 +10,19 @@ Insert Image
 It is an interactive single page website consisting of three major sections. One is the game area where users select their weapon. The second is the score area that displays the reslt of the game. The footer provides reference to rules of the game. 
 ### Existing Features
 #### Header
-The header consists of the the title of the website that is the name of the game - Rock Paper Scissors Lizard Spock.
-<br>
-An emotive font, 'Bangers' has been used for the title of the page that is in line with the vibe of the site - playful and fun!
-<br>
+<ul>
+<li>The header consists of the the title of the website that is the name of the game - Rock Paper Scissors Lizard Spock.</li>
+<li>An emotive font, 'Bangers' has been used for the title of the page that is in line with the vibe of the site - playful and fun!</li>
+</ul>
 Insert Image
 #### Game Area
-In the game area, the user is required to pick a weapon of choice. The weapons are displayed as illustrations that give off a funky look.
-<br>
-The images of the weapons expand in size as the cursor hovers over them to bring focus to that particular weapon.
-<br>
-Once the user selects a weapon, the computer automatically selects a weapon in respone.
-### Score Area
+<ul>
+<li>In the game area, the user is required to pick a weapon of choice. The weapons are displayed as illustrations that give off a funky look.</li>
+<li>The images of the weapons expand in size as the cursor hovers over them to bring focus to that particular weapon.</li>
+<li>Once the user selects a weapon, the computer automatically selects a weapon in respone.</li>
+</ul>
+Insert Image
+<h4>Score Area</h4>
+ 
 
 
