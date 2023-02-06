@@ -28,6 +28,18 @@ Insert Image
  This is either a win, loss or draw.</li>
 <li>A game total is also displayed that shows the accumulated wins of both the user and the computer.</li>
 </ul>
+Insert Image
+<h3>Features Left to Implement</h3>
+The game can be expanded to include multiple players.
+<h2>Testing</h2>
+ <ul>
+  <li>The game has been tested on multiple browsers: Google Chrome, Microsoft Edge and Mozilla Firefox.</li>
+  <li>The game has been run repititively to ensure that game results are always accurate.</li>
+  <li>The website has been tested using chrome developer tools to emulate different screen sizes. Media queries have been used for responsive CSS to ensure better user experience.</li>
+  <li>The site has been run through Lighthouse to check accessibility.</li>
+ <ul>
+Insert Image
+ 
  
 
 
