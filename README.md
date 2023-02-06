@@ -26,6 +26,30 @@ The game can be expanded to include multiple players.
 - The game has been run repititively to ensure that game results are always accurate.
 - The website has been tested using chrome developer tools to emulate different screen sizes. Media queries have been used for responsive CSS to ensure better user experience.
 - The site has been run through Lighthouse to check performance and accessibility.
+### Validator Testing
+- No errors were returned when passing the HTML code through the W3C Validator.
+- No errors were found when passing the CSS code through the Jigsaw Validator.
+- No errors were found when passing the CSS code through the JSHint JavaScript Validator.
+### Unsolved Bugs
+There are no unfixed bugs
+## Deployment
+### GitHub
+The site was deployed to GitHub pages. The steps followed were:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch
+- Once the Main Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found here - https://farehasi.github.io/Rock-Paper-Scissors-Lizard-Spock/
+### GitPod
+The site can be also deployed on GitPod. The steps to deploy are as follows:
+- In the gitpod workspace go to MyProject1 click on the index.html
+- Once opened, in the terminal type: python3 -m http.server
+- Local link will appear in the terminal, click on it and the webpage will open in a new tab.
+### Forking
+To Fork this repositary:
+- Navigate to GitHub project repositary [Rock Paper Scissors Lizard Spock](https://github.com/FarehaSi/Rock-Paper-Scissors-Lizard-Spock)
+- In the right hand corner see the "Fork" section and click on it.
+- Select an owner for the forked repository.
+- Click Create fork button.
 
  
  
