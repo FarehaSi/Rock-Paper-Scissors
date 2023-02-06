@@ -48,7 +48,7 @@ To Fork this repositary:
 - Select an owner for the forked repository.
 - Click Create fork button.
 ## Credits
-- All illustrations are taken from <a href="https://www.pngwing.com/" target="_blank">PNGWing</a>
+All illustrations are courtesy <a href="https://www.pngwing.com/" target="_blank">PNGWing</a>
 ## Acknowledgements
 I would like to also thank my mentor Akshat Garg for helping me write better JavaScript Code.
 
