@@ -15,5 +15,12 @@ The header consists of the the title of the website that is the name of the game
 An emotive font, 'Bangers' has been used for the title of the page that is in line with the vibe of the site - playful and fun!
 <br>
 Insert Image
+#### Game Area
+In the game area, the user is required to pick a weapon of choice. The weapons are displayed as illustrations that give off a funky look.
+<br>
+The images of the weapons expand in size as the cursor hovers over them to bring focus to that particular weapon.
+<br>
+Once the user selects a weapon, the computer automatically selects a weapon in respone.
+### Score Area
 
 
