@@ -28,10 +28,10 @@ The game can be expanded to include multiple players.
 - No errors were found when passing the CSS code through the Jigsaw Validator.
 - No errors were found when passing the CSS code through the JSHint JavaScript Validator.
 ### Unsolved Bugs
-There are no unfixed bugs
+There are no unfixed bugs.
 ## Deployment
 #### GitHub
-The site was deployed to GitHub pages. The steps followed were:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Main Branch
 - Once the Main Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
