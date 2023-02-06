@@ -16,7 +16,7 @@ It is an interactive single page website consisting of three major sections. One
 - In the game area, the user is required to pick a weapon of choice. The weapons are displayed as illustrations that give off a funky look.
 - The images of the weapons expand in size as the cursor hovers over them to bring focus to that particular weapon.
 - Once the user selects a weapon, the computer automatically selects a weapon in respone.
-####Score Area
+#### Score Area
 - The score area displays the result of the selections made. Both the user and computer choice are displayed in text and the result of the game is announced. This is either a win, loss or draw.
 - A game total is also displayed that shows the accumulated wins of both the user and the computer.
 ### Features Left to Implement
