@@ -38,7 +38,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The live link can be found here - https://farehasi.github.io/Rock-Paper-Scissors-Lizard-Spock/
 #### GitPod
 The site can be also deployed on GitPod. The steps to deploy are as follows:
-- In the gitpod workspace go to MyProject1 click on the index.html
+- In the gitpod workspace click on the index.html
 - Once opened, in the terminal type: python3 -m http.server
 - Local link will appear in the terminal, click on it and the webpage will open in a new tab.
 #### Forking
