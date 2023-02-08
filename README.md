@@ -19,6 +19,9 @@ It is an interactive single page website consisting of three major sections. One
 - The score area displays the result of the selections made. Both the user and computer choice are displayed in text and the result of the game is announced. This is either a win, loss or draw.
 - A game total is also displayed that shows the accumulated wins of both the user and the computer.
 ![ScoreArea](https://user-images.githubusercontent.com/116716786/217593093-bb41ad3c-cc7a-465d-abb4-e23539d0548a.png)
+#### Footer
+The footer displays game rules for those not familiar with the extended version.
+![Footer](https://user-images.githubusercontent.com/116716786/217594174-83837d00-2c15-4a4c-ab76-2b0231dfb2b2.png)
 ### Features Left to Implement
 The game can be expanded to include multiple players.
 ## Testing
@@ -55,4 +58,3 @@ To Fork this repositary:
 All illustrations are courtesy <a href="https://www.pngwing.com/" target="_blank">PNGWing</a>
 ## Acknowledgements
 I would like to also thank my mentor Akshat Garg for helping me write better JavaScript Code.
-
