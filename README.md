@@ -2,6 +2,7 @@
 <a href="https://farehasi.github.io/Rock-Paper-Scissors-Lizard-Spock/" target="_blank">Rock Paper Scissors Lizard Spock</a> is an extension of the classic game of chance Rock Paper Scissors. It operates on the same basic principle, but incldes two additional weapons: the lizard and the legendary Star Trek villian Spock. This version of the game gained popularity after it was used to settle a dispute about what to watch on TV between characers Sheldon and Raj in the popular TV sitcom The Big Bang Theory.
 <br>
 In this game, users can play against the computer that randomly chooses one of the five given weapons. This results in either a win, loss or a draw. The game can be used to settle an argument, kill time or simply have fun with! It is targeted at individuals of all age groups and regions!
+
 ![WebsiteMockup](https://user-images.githubusercontent.com/116716786/217592731-7144a64d-648e-4d4b-b35b-4f6d3badcf04.png)
 ## Features
 It is an interactive single page website consisting of three major sections. One is the game area where users select their weapon. The second is the score area that displays the reslt of the game. The footer provides reference to rules of the game. 
@@ -25,7 +26,7 @@ The footer displays game rules for those not familiar with the extended version.
 ### Features Left to Implement
 The game can be expanded to include multiple players.
 ## Testing
-- The game has been tested on multiple browsers: Google Chrome, Microsoft Edge and Mozilla Firefox.
+- The game has been tested on different browsers: Google Chrome and Microsoft Edge.
 - The game has been run repititively to ensure that game results are always accurate.
 - The website has been tested using chrome developer tools to emulate different screen sizes. Media queries have been used for responsive CSS to ensure better user experience.
 - The site has been run through Lighthouse to check performance and accessibility.
@@ -33,7 +34,7 @@ The game can be expanded to include multiple players.
 ### Validator Testing
 - No errors were returned when passing the HTML code through the W3C Validator.
 - No errors were found when passing the CSS code through the Jigsaw Validator.
-- No errors were found when passing the CSS code through the JSHint JavaScript Validator.
+- No serious errors were found when passing the JavaScript code through the JSHint Validator.
 ### Unsolved Bugs
 There are no unfixed bugs.
 ## Deployment
