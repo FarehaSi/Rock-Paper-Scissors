@@ -33,8 +33,11 @@ The game can be expanded to include multiple players.
 ![LighthouseResults](https://user-images.githubusercontent.com/116716786/217593173-7ff22c06-b886-4714-95b4-3f6097558105.png)
 ### Validator Testing
 - No errors were returned when passing the HTML code through the W3C Validator.
+![HTML-Validator](https://user-images.githubusercontent.com/116716786/217603821-c834ca42-0b3e-497e-863c-0dbb5d675a64.png)
 - No errors were found when passing the CSS code through the Jigsaw Validator.
+![CSS-Validator](https://user-images.githubusercontent.com/116716786/217603842-5fc65f58-9813-4fd2-8f00-30fcc8e2384a.png)
 - No serious errors were found when passing the JavaScript code through the JSHint Validator.
+![JS-Validator](https://user-images.githubusercontent.com/116716786/217603864-1290100a-3ce7-4704-a9c0-c851f9fff08b.png)
 ### Unsolved Bugs
 There are no unfixed bugs.
 ## Deployment
@@ -44,18 +47,20 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Main Branch
 - Once the Main Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here - https://farehasi.github.io/Rock-Paper-Scissors-Lizard-Spock/
-#### GitPod
-The site can be also deployed on GitPod. The steps to deploy are as follows:
-- In the gitpod workspace click on the index.html
-- Once opened, in the terminal type: python3 -m http.server
-- Local link will appear in the terminal, click on it and the webpage will open in a new tab.
+#### Cloning
+To create a clone of the repository within your local development environment which makes it easier to fix merge conflicts, add or remove files, and push larger commits, follow these steps:
+- Log in to GitHub, access the specific GitHub Repository [Rock Paper Scissors Lizard Spock](https://github.com/FarehaSi/Rock-Paper-Scissors-Lizard-Spock)
+- Above the file list on the repository page locate and click the 'Code' button (beside the 'Add file' button)
+- Copy the provided link depending on your desired option for either 'HTTPS', 'SSH key' or 'GitHub CLI.
+- Open Git Bash and change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the specific URL you copied in Step 3.
 #### Forking
-To Fork this repositary:
+Forking enables a third party to create a copy of the repository in order to view and/or make changes without affecting the original. To Fork this repositary:
 - Navigate to GitHub project repositary [Rock Paper Scissors Lizard Spock](https://github.com/FarehaSi/Rock-Paper-Scissors-Lizard-Spock)
 - In the right hand corner see the "Fork" section and click on it.
 - Select an owner for the forked repository.
 - Click Create fork button.
 ## Credits
-All illustrations are courtesy <a href="https://www.pngwing.com/" target="_blank">PNGWing</a>
+All illustrations are courtesy of <a href="https://www.pngwing.com/" target="_blank">PNGWing</a>
 ## Acknowledgements
 I would like to also thank my mentor Akshat Garg for helping me write better JavaScript Code.
