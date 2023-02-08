@@ -72,6 +72,8 @@ function createWeaponImageEl(weapon) {
   const imgEl = document.createElement("img");
   imgEl.src = weapon.imgSrc;
   imgEl.className = "weapon-img";
+  imgEl.title = weapon.name;
+  imgEl.alt = weapon.name;
   return imgEl;
 }
 
